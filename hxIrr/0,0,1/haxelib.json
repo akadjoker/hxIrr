@@ -1,0 +1,10 @@
+{
+	"name" : "hxIrr",
+	"url" : "https://github.com/akadjoker/hxIrr",
+	"license" : "BSD",
+    "description" : "Irrlicht Bindings",
+    "version" : "0.0.1",
+	"releasenote" : "",
+	"contributors" : ["djoker"],
+	"dependencies" : {}
+}

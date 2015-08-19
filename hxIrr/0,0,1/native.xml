@@ -1,0 +1,16 @@
+<xml>
+
+<files id="haxe">
+	<compilerflag value="-I${haxelib:hxIrr}/irrlicht/include"/>
+	<compilerflag value="-I${haxelib:hxIrr}"/>
+
+</files>
+
+<target id="haxe">
+	<lib name="${haxelib:hxIrr}/irrlicht/lib/irrlicht.lib"/>
+	<lib name="opengl32.lib"/>
+	<lib name="winmm.lib"/>
+	
+</target>
+
+</xml>

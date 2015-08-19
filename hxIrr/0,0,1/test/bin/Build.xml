@@ -1,0 +1,89 @@
+<xml>
+<set name="HXCPP_API_LEVEL" value="321" />
+<files id="haxe">
+<compilerflag value="-Iinclude"/>
+  <file name="src/irr/Texture.cpp">
+   <depend name="include/irr/Texture.h"/>
+  </file>
+  <file name="src/irr/SceneManager.cpp">
+   <depend name="include/irr/CameraSceneNode.h"/>
+   <depend name="include/irr/FpsCameraSceneNode.h"/>
+   <depend name="include/irr/MeshSceneNode.h"/>
+   <depend name="include/irr/SceneManager.h"/>
+   <depend name="include/irr/SceneNode.h"/>
+  </file>
+  <file name="src/irr/MeshSceneNode.cpp">
+   <depend name="include/irr/MeshSceneNode.h"/>
+   <depend name="include/irr/SceneNode.h"/>
+  </file>
+  <file name="src/irr/FpsCameraSceneNode.cpp">
+   <depend name="include/irr/CameraSceneNode.h"/>
+   <depend name="include/irr/FpsCameraSceneNode.h"/>
+   <depend name="include/irr/SceneNode.h"/>
+  </file>
+  <file name="src/irr/Driver.cpp">
+   <depend name="include/irr/Driver.h"/>
+   <depend name="include/irr/Texture.h"/>
+  </file>
+  <file name="src/irr/Device.cpp">
+   <depend name="include/irr/Device.h"/>
+   <depend name="include/irr/Driver.h"/>
+   <depend name="include/irr/SceneManager.h"/>
+  </file>
+  <file name="src/irr/CameraSceneNode.cpp">
+   <depend name="include/irr/CameraSceneNode.h"/>
+   <depend name="include/irr/SceneNode.h"/>
+  </file>
+  <file name="src/irr/SceneNode.cpp">
+   <depend name="include/irr/SceneNode.h"/>
+   <depend name="include/irr/Texture.h"/>
+  </file>
+  <file name="src/haxe/NativeWrapper.cpp">
+   <depend name="include/haxe/NativeWrapper.h"/>
+  </file>
+  <file name="src/haxe/Log.cpp">
+   <depend name="include/Std.h"/>
+   <depend name="include/haxe/Log.h"/>
+  </file>
+  <file name="src/Test.cpp">
+   <depend name="include/Test.h"/>
+   <depend name="include/haxe/Log.h"/>
+   <depend name="include/irr/CameraSceneNode.h"/>
+   <depend name="include/irr/Device.h"/>
+   <depend name="include/irr/Driver.h"/>
+   <depend name="include/irr/MeshSceneNode.h"/>
+   <depend name="include/irr/SceneManager.h"/>
+   <depend name="include/irr/SceneNode.h"/>
+   <depend name="include/irr/Texture.h"/>
+  </file>
+  <file name="src/Std.cpp">
+   <depend name="include/Std.h"/>
+  </file>
+  <file name="src/__boot__.cpp">
+   <depend name="include/haxe/Log.h"/>
+  </file>
+  <file name="src/__files__.cpp">
+  </file>
+  <file name="src/__resources__.cpp">
+  </file>
+</files>
+<files id="__lib__">
+<compilerflag value="-Iinclude"/>
+  <file name="src/__lib__.cpp">
+   <depend name="include/Test.h"/>
+  </file>
+</files>
+<files id="__main__">
+<compilerflag value="-Iinclude"/>
+  <file name="src/__main__.cpp">
+   <depend name="include/Test.h"/>
+  </file>
+</files>
+<files id="__resources__">
+</files>
+<files id="__externs__">
+</files>
+<set name="HAXE_OUTPUT" value="Test" />
+<include name="${HXCPP}/build-tool/BuildCommon.xml"/>
+<include name="${haxelib:hxIrr}/native.xml"/>
+</xml>
